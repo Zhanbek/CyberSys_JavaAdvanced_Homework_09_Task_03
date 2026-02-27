@@ -3,9 +3,11 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class Main {
+
     private static void printHorizontalBorder() {
         System.out.println("--------------------------------------------------------------------------------------------");
     }
+
     public static void main(String[] args) {
 
         List<Book> books = new ArrayList<>();
